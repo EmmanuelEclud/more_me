@@ -1,0 +1,163 @@
+:root {
+    --background-color: rgb(56, 56, 56);  /* Morado oscuro */
+    --text-color: #e0e0e0;       /* Texto claro */
+    --brillat-color: rgb(190, 0, 0);  /* Header ligeramente más claro */
+    --oscurer-color: rgb(0, 0, 50);  /* Color de los botones */
+    --button-color: rgb(73, 0, 73);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--oscurer-color), black);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, black, var(--brillat-color));
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.tagline {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #ccc;
+}
+.projects {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 5%;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    padding: 20px;
+}
+.project {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 50px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.project p{
+    line-height: 1.3;
+}
+.project:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.2);
+}
+.project img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+a{
+    padding: 8px 15px;
+    background-color: var(--button-color);
+    border-radius: 18px;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-top: 5px;
+}
+a:hover{
+    background-color: var(--brillat-color);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+footer a {
+    color: #ff3333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* ?
+?
+? */
+#Carrusel{
+    text-align: center;
+    margin: 30px 40px;
+}
+#Carrusel h2{
+    color: var(--brillat-color);
+}
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.carousel-item {
+    filter: drop-shadow(0px 0px 10px rgba(4, 0, 255, 0.8)); /* Amarillo brillante */
+    width: 300px;
+    height: auto;
+    margin: 0 20px;
+    flex-shrink: 0;
+    transform: scale(0.9);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.carousel-item.active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text-content {
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.text-content p {
+    color: #ccc;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.nav-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-buttons button:hover {
+    background: #444;
+}
+
