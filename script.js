@@ -9,7 +9,7 @@ const carousel = document.getElementById('carousel');
       { subtitle: 'KRINGLE', description: 'Tres miradas, tres voces. Sin rumbo ni propósito, con un gran carisma de inicio se vio corrompido al momento de analizar la hipocresía en la historia.' },
       { subtitle: 'MINKLY', description: 'Detrás de la sonrisa afilada, un estratega sin piedad. No desafía al mundo, lo manipula. Donde otros ven caos, él busca encontrar su dominio.' },
       { subtitle: 'PAULINE', description: 'Belleza y poder en perfecta sintonía. No conquista con la fuerza, sino con el deseo ajeno. Dominar no es una opción, es su naturaleza, es manipulación de manual.' },
-      { subtitle: 'AEURONI', description: 'Un espectro entre verdades incómodas. Su mirada perfora la ilusión del conformismo moderno, el conformismo no debería ser idealizado.' },
+      { subtitle: 'AEURONI', description: 'Un espectro entre verdades incómodas. Su mirada perfora la ilusión del conformismo moderno, el conformismo no debería ser normalizado.' },
       { subtitle: 'TIRIXIS', description: 'Una risa afilada como un cuchillo. No intenta cambiar el mundo, solo desnudar su hipocresía absurda. -Ojos cerrados no ven, pero si sienten un golpe-.' },
     ];
 
